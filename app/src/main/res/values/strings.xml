@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Intent App</string>
+    <string name="pindah_halaman">Pindah Halaman</string>
+    <string name="calculator">calculator</string>
+    <string name="move_with_data">move with data</string>
+    <string name="data_received">data received</string>
+    <string name="name">Your name:</string>
+    <string name="age">age</string>
+    <string name="move_with_object">move with object</string>
+    <string name="object_receiver">Object Receiver</string>
+    <string name="dial_number">dial number</string>
+    <string name="_100">100</string>
+    <string name="_200">200</string>
+    <string name="_300">300</string>
+    <string name="_400">400</string>
+    <string name="get_result">Get Result</string>
+    <string name="move_with_result">move with result</string>
+    <string name="result_from_other_activity">result from other activity</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".ActivityMoveForResult">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Option below:" />
+
+    <RadioGroup
+        android:id="@+id/rg_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/rb_100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_100"
+        />    <RadioButton
+        android:id="@+id/rb_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_200"
+        /><RadioButton
+        android:id="@+id/rb_300"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_300"
+        /><RadioButton
+        android:id="@+id/rb_400"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_400"
+        />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_get_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_result"/>
+</LinearLayout>
