@@ -16,4 +16,5 @@
     <string name="get_result">Get Result</string>
     <string name="move_with_result">move with result</string>
     <string name="result_from_other_activity">result from other activity</string>
+    <string name="hello">Hello</string>
 </resources>
